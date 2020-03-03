@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow android:id="@+id/row1"
+        android:layout_width="match_parent">
+        <TextView android:id="@+id/rowtext" android:background="#cdddff"
+            android:padding="6dp"
+            android:text="Item"/>
+        <TextView android:id="@+id/rowtext2" android:layout_marginLeft="5dp"
+            android:background="#cdddff"
+            android:padding="6dp"
+            android:text="Calories"/>
+        <TextView android:id="@+id/rowtext3"
+            android:layout_marginLeft="6dp"
+            android:background="#cdddff"
+            android:padding="6dp"
+            android:text="Price $"/>
+    </TableRow>
+    <View android:id="@+id/view1"
+        android:background="#cdddff"
+        android:layout_height="1dp"/>
+    <TableRow>
+        <TextView
+            android:text="Big Mac" />
+        <TextView
+            android:gravity="center"
+            android:text="530" />
+        <TextView
+            android:gravity="center"
+            android:text="3.99" />
+        <Button
+            android:id="@+id/btnBuyBigMac"
+            android:gravity="center"
+            android:text="Buy" />
+    </TableRow>
+    <View
+        android:layout_height="1dp"
+        android:background="#FF33B5E5" />
+
+</TableLayout>
